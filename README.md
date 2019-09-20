@@ -4,6 +4,7 @@ OUR-OMA: Oxford University Reinjection-Optimized Meshing Add-on
 
 [![DOI](https://zenodo.org/badge/20396/casimp/pyxe.svg)](https://zenodo.org/badge/latestdoi/20396/casimp/pyxe) 
 
+![OUR-OMA](codevisual.png)
 
 What is OUR-OMA?
 -------------
