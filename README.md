@@ -2,7 +2,7 @@ OUR-OMA: Oxford University Reinjection-Optimized Meshing Add-on
 ===============================================
 
 
-[![DOI](https://zenodo.org/badge/20396/casimp/pyxe.svg)](https://zenodo.org/badge/latestdoi/20396/casimp/pyxe) 
+[![DOI](https://zenodo.org/badge/209754287.svg)](https://zenodo.org/badge/latestdoi/209754287)
 
 ![OUR-OMA](codevisual.png)
 
