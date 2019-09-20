@@ -13,7 +13,7 @@ OUR-OMA employs a finite element approach to extract the J-integral from digital
 image correlation (DIC) and digital volume correlation (DVC) measured displacement fields. 
 OUR-OMA has been developed in python and runs inside Abaqus via its scripting interface.
 
-The DIC/DVC measured displacement fields are imported as a set of full field boundary conditions 
+DIC/DVC measured displacement fields are imported as a set of full field boundary conditions 
 into a finite element model of the crack. The location of the crack 
 tip and mouth in the displacement field must be known and specified in the code. A region 
 around the crack, chosen by the user, is then re-meshed with higher order elements for improved accuracy. 
@@ -31,11 +31,12 @@ Barhli, S. M., Mostafavi, M., Cinar, A. F., Hollis, D., & Marrow, T. J. (2017). 
 Dependencies
 ------------
 
-OUR-OMA is coded in Python and runs inside the Abaqus software (preferably Abaqus 6.14 or more recent) 
+OUR-OMA is coded in python and runs inside the Abaqus FEA software (preferably Abaqus 6.14 or more recent) 
 via its scripting interface. The code requires numpy, which comes pre-built with the Abaqus python scripting API.
 
 Installation
 -------------
 
-The file is simply saved into the same directory as the displacement field to be evaluated.
-To run enter 'abaqus cae noGUI=filename.py'. The full path must be included in filename.
+The OUR-OMA script must be saved into the same directory as the displacement field to be evaluated.
+To run enter 'abaqus cae noGUI=OUROMAv2.3_CL.py' on the command line. 
+The full path and the crack tip and mouth positions must be specified in OUROMAv2.3_CL.py.
